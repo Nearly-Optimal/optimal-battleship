@@ -1,0 +1,40 @@
+{
+ "about": "Hard boards from the page's searches (cell = 10 * row + column, from 0). Each search looks for boards that are hard for one hunt, so the values the page quotes are upper bounds on that hunt's true worst case. Win rates race the best strategy's pace (data/pace_best.json).",
+ "boards": {
+  "heat_worst": {
+   "hunt": "heat",
+   "board": "5:47,57,67,77,87 4:20,21,22,23 3:10,11,12 3:13,14,15 2:0,1",
+   "page": "the heat map's worst board found (Figure 2, Table 1): 66.2 shots, wins <= 3.8%"
+  },
+  "checker_worst": {
+   "hunt": "checker",
+   "board": "5:41,51,61,71,81 4:21,22,23,24 3:45,46,47 3:64,74,84 2:18,28",
+   "page": "the checkerboard's worst board found (Table 1): 54.3 shots, wins <= 27.2%"
+  },
+  "parity3_worst": {
+   "hunt": "parity3",
+   "board": "5:51,52,53,54,55 4:27,37,47,57 3:11,21,31 3:86,87,88 2:82,83",
+   "page": "plain 3-parity's worst board found (Table 1): 52.5 shots, wins <= 34.4%"
+  },
+  "smart3_worst": {
+   "hunt": "smart3",
+   "board": "5:28,38,48,58,68 4:13,14,15,16 3:32,42,52 3:73,74,75 2:44,45",
+   "page": "smart 3-parity's worst board found (sections 2 and 5): 51.2 shots, wins <= 35.8%"
+  },
+  "smart3pro_worst": {
+   "hunt": "smart3pro",
+   "board": "5:73,74,75,76,77 4:41,42,43,44 3:13,14,15 3:37,47,57 2:18,19",
+   "page": "smart 3-parity pro's worst board found (section 5): 50.5 shots, wins <= 38.6%"
+  },
+  "random_worst": {
+   "hunt": "random",
+   "board": "5:61,62,63,64,65 4:28,38,48,58 3:15,25,35 3:21,31,41 2:77,87",
+   "page": "the random hunt's worst board found (by the video's search; not on the page): 62.3 shots, wins <= 19.1%"
+  },
+  "best_worst": {
+   "hunt": null,
+   "board": "5:3,13,23,33,43 4:73,74,75,76 3:41,51,61 3:57,58,59 2:54,55",
+   "page": "the best strategy's worst board found (Table 1): 48.7 shots, wins <= 44.5% against its own pace (the best strategy itself is not in play/)"
+  }
+ }
+}
